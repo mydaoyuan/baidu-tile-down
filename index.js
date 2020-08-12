@@ -1,4 +1,4 @@
-const { startLnglat, endLnglat, tileStyle, ak, maxz } = require('./conf')
+const { startLnglat, endLnglat, tileStyle, ak, maxz, minz } = require('./conf')
 const getImage = require('./downloadImg')
 if (!ak) {
   console.log('ak必填，请正确填写后重试')
